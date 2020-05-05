@@ -122,7 +122,10 @@ class Superwar {
     // Check for fight
     isFight = () => {
         // Type your code here
-
+        if ('clash' == 'clash') {
+            return 'clash';
+        }
+        return 'peace'; 
         // return  'clash' or 'peace';
     }
 
@@ -150,7 +153,7 @@ class Superwar {
         // If winner dosen't exists then return endure
         // Type your code here
 
-      return result;
+        return result;
     }
 
     // Find total strength of a team
